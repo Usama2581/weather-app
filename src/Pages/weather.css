@@ -1,0 +1,123 @@
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Arvo', serif;
+}
+
+.parent {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: gainsboro;
+}
+
+.child {
+    background-color: #22283D;
+    width: auto;
+    padding: 20px;
+    height: auto;
+}
+
+#icon,
+.fa-solid {
+   font-size: 20px;
+   cursor: pointer;
+   color: white;
+   position: relative;
+   left: 40px;
+}
+
+input {
+    font-size: 15px;
+    border: none;
+    outline: none;
+    background-color: #22283d34;
+    color: white;
+}
+
+.inputbox {
+    border: 1px solid white;
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px;
+    width: 270px;
+}
+
+.temp {
+    margin-top: 20px;
+    background-color: #22283D;
+    width: 310px;
+    padding: 20px;
+}
+
+.temp p,
+.temp h2 {
+    color: white;
+    margin-left: 0px;
+}
+span {
+    display: flex;
+}
+
+
+
+.city {
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.date {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+#img {
+    position: relative;
+    
+    width: 100px;
+    height: 100px;
+}
+
+.t {
+    font-size: 35px;
+    position: relative;
+    top: -20px;
+    left: 5px;
+}
+
+.info {
+    margin-top: -10px;
+}
+
+hr {
+    position: relative;
+    top: 0px;
+    margin-bottom: 30px;
+}
+
+.info p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.main {
+    position: relative;
+    top: -20px;
+    left: 4px;
+    font-size: 15px;
+}
+
+.found {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 310px;
+    background-color: crimson;
+    height: 50px;
+}
